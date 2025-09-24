@@ -46,6 +46,7 @@ Getting Started:
 No complex setup or local server is required to run this application.
 
 Open the file directly in any modern web browser (e.g., Google Chrome, Firefox, Microsoft Edge).
+
 And can be viewed on: https://g.co/gemini/share/82ccdeff8b98
 
 Contributors:
