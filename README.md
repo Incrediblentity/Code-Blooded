@@ -80,12 +80,7 @@ GOOGLE_MAPS_API_KEY='YOUR_API_KEY'
 CLIMATE_DATA_API_KEY='YOUR_API_KEY'
 
 
-Run the Application:
-
-Start the backend server (from the backend directory):
-
-python app.py
-
+Our website can be viewed on: https://g.co/gemini/share/82ccdeff8b98
 
 Start the frontend development server (from the frontend directory):
 
