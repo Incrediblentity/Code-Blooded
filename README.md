@@ -39,7 +39,6 @@ Technical Stack
 The application is built using standard web technologies and relies on CDN-hosted libraries:
 
 Structure: HTML
-
 Logic: JavaScript
 
 Getting Started:
@@ -47,13 +46,14 @@ No complex setup or local server is required to run this application.
 
 Open the file directly in any modern web browser (e.g., Google Chrome, Firefox, Microsoft Edge).
 
-And can be viewed on: https://g.co/gemini/share/82ccdeff8b98
+And the preview of our website can be viewed on: https://g.co/gemini/share/82ccdeff8b98
+
+Frontend: User interface (HTML), styling (CSS), and client-side logic (JavaScript).
+
+Backend: This application is currently a client-side prototype and does not have a dedicated backend. A backend developer would be responsible for creating an API, managing a database, and implementing a real prediction model.
 
 Contributors:
 Manan Singhal 
 Viransh Jain 
 Smit Shubhanshu Kamatnurkar
-Animesh Panda 
-Frontend: User interface (HTML), styling (CSS), and client-side logic (JavaScript).
-
-Backend: This application is currently a client-side prototype and does not have a dedicated backend. A backend developer would be responsible for creating an API, managing a database, and implementing a real prediction model.
+Animesh Panda
