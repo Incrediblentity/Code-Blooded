@@ -1,6 +1,6 @@
 SmartHarvest - Smart Crop Prediction 
 
-Overview
+Overview:
 
 SmartHarvest is a web-based demonstration application designed to provide crop recommendations to farmers. The tool, titled "SmartHarvest - Smart Crop Prediction," aims to help users "Leverage predictive analytics to choose the most profitable crops for your land and season". Users can select a geographical region and a planting month to receive a prediction for the most suitable and profitable crop.
 
