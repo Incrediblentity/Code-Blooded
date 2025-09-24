@@ -33,7 +33,7 @@ How It Works
 
 • Mock Data Source: All crop predictions are sourced from a hardcoded JavaScript object named cropData within the index1.html file. This object contains pre-defined crop recommendations for each region and month combination, along with associated metrics like profitability, yield, and potential products.
 
-•Prediction Simulation: When a user clicks the "Predict Best Crop" button, the application performs a lookup in the cropData object based on the selected inputs. To enhance the user experience and mimic a real analytical process, a 1.5-second delay is intentionally added using setTimeout before displaying the results.
+• Prediction Simulation: When a user clicks the "Predict Best Crop" button, the application performs a lookup in the cropData object based on the selected inputs. To enhance the user experience and mimic a real analytical process, a 1.5-second delay is intentionally added using setTimeout before displaying the results.
 
 • Technical Stack
 The application is built using standard web technologies and relies on CDN-hosted libraries:
@@ -46,7 +46,10 @@ No complex setup or local server is required to run this application.
 
 Open the file directly in any modern web browser (e.g., Google Chrome, Firefox, Microsoft Edge).
 
-And the preview of our website can be viewed on: https://g.co/gemini/share/82ccdeff8b98
+Our progress over time:- 1) https://g.co/gemini/share/82ccdeff8b98 
+                         2) https://g.co/gemini/share/005748971689
+
+And the preview of our website can be viewed on: https://g.co/gemini/share/005748971689
 
 Frontend: User interface (HTML), styling (CSS), and client-side logic (JavaScript).
 
