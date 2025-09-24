@@ -14,7 +14,7 @@ Features:
 
 Detailed Prediction Results: The output provides comprehensive details for the recommended crop, including:
 
-A descriptive summary.
+• A descriptive summary.
 
 • Predicted Profitability (e.g., High, Very High).
 
