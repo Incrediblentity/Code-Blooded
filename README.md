@@ -1,6 +1,4 @@
 # Code-Blooded
 Repository made for Yuva Ai Hackathon Team Code Blooded
 Hello this is the starting of readme and the event.
-weryyi99-0=
-hello
-Hello 12345
+
