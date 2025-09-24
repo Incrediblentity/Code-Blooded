@@ -1,4 +1,4 @@
-SmartHarvest - Smart Crop Prediction 
+SkyCrop - Smart Crop Prediction 
 
 Overview:
 
