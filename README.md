@@ -1,152 +1,58 @@
-SmartHarvest: Your Personal Agro-Analyst
-Leveraging Agentic AI to forecast crop yields, recommend optimal seeds, and help farmers navigate a changing climate.
+SmartHarvest - Smart Crop Prediction 
 
-Imagine having a personal data scientist who can predict your crop yields with high accuracy.
+Overview
+SmartHarvest is a web-based demonstration application designed to provide crop recommendations to farmers. The tool, titled "SmartHarvest - Smart Crop Prediction," aims to help users "Leverage predictive analytics to choose the most profitable crops for your land and season". Users can select a geographical region and a planting month to receive a prediction for the most suitable and profitable crop.
 
-🌾 About The Project
-In an era of unprecedented climate change, traditional farming methods face significant challenges. Unpredictable weather patterns, rising global temperatures, and climatic disturbances threaten food security and the livelihoods of farmers worldwide.
+This application is a client-side prototype and uses a mock dataset for its predictions. It serves as a proof-of-concept for a smart farming tool.
 
-SmartHarvest is a web-based platform that provides farmers, researchers, and agricultural businesses with a personal data scientist. Our agentic AI analyzes vast amounts of climate data to deliver precise, actionable insights for agriculture. The core model is designed to understand and predict the impacts of long-term climate trends, like global warming, on crop production.
+Features
+Recommendation Engine: Predicts the best crop based on user inputs for the planting season (month) and region.
 
-Our goal is to empower users to make data-driven decisions that enhance productivity, sustainability, and profitability in the face of climate uncertainty.
+Region-Specific Data: Includes options for five distinct agricultural zones: Northern Plains, Southern Plateau, Coastal Areas, Himalayan Region, and Desert Region.
 
-✨ Key Features
-📈 High-Accuracy Crop Forecasting: Get accurate predictions for crop production and utility based on your specific location.
+Detailed Prediction Results: The output provides comprehensive details for the recommended crop, including:
 
-🌍 Climate-Aware Modeling: Our AI is trained on extensive climate datasets and accounts for global warming trends and other climatic disturbances.
+A descriptive summary.
 
-🤖 Agentic AI Interface: Interact with our AI in natural language. Ask complex questions and get detailed, context-aware answers.
+Predicted Profitability (e.g., High, Very High).
 
-🌱 Seed Sourcing: After recommending the most suitable crops, the AI identifies the nearest locations where you can purchase the required seeds.
+Confidence Level percentage.
 
-📊 Data Visualization: Understand complex data through intuitive charts, graphs, and maps.
+Predicted Yield in Quintals/Acre.
 
-📍 Location-Based Analysis: Receive insights tailored to the unique climatic and geographical conditions of your area.
+Predicted Profit in ₹/Acre.
 
-🛠️ How It Works
-SmartHarvest is built with a modern technology stack to ensure performance, scalability, and a seamless user experience.
+A list of potential commercial products from the crop (e.g., Flour, Mustard Oil, Textiles).
 
-Frontend: The user interface is built with a modern JavaScript framework for a responsive and interactive experience.
+Yield Trend Visualization: A dynamic bar chart displays the "Historical & Predicted Yield Trend," showing data for two past years ("Actual") and three future years ("Predicted").
 
-Backend: A robust Python backend (using Flask/Django) serves the core logic and API endpoints.
+User-Friendly Interface: A clean, responsive interface with a loading animation to simulate data analysis.
 
-Machine Learning Core:
+How It Works
+The SmartHarvest application operates entirely on the client-side within the browser.
 
-Our pipeline successfully builds an AI system for predicting crop yields based on climate data, accounting for global warming trends using both traditional machine learning (scikit-learn) and deep learning (TensorFlow) approaches.
+Mock Data Source: All crop predictions are sourced from a hardcoded JavaScript object named cropData within the index1.html file. This object contains pre-defined crop recommendations for each region and month combination, along with associated metrics like profitability, yield, and potential products.
 
-The predictive engine is trained on a diverse range of datasets, including historical weather data, climate projection models, and agricultural yield statistics.
+Prediction Simulation: When a user clicks the "Predict Best Crop" button, the application performs a lookup in the cropData object based on the selected inputs. To enhance the user experience and mimic a real analytical process, a 1.5-second delay is intentionally added using setTimeout before displaying the results.
 
-The model utilizes time-series analysis and regression techniques to make accurate forecasts, achieving an R² score of 0.7841. This indicates that our model explains approximately 78% of the variance in crop yields—a strong result for this type of prediction task.
+Technical Stack
+The application is built using standard web technologies and relies on CDN-hosted libraries:
 
-APIs:
+Structure: HTML
 
-Google Maps API: Used for geographic data processing and to locate the nearest seed suppliers.
+Logic: JavaScript
 
-Climate Data APIs: We integrate with leading climate data providers to ensure our models are always up-to-date.
+Getting Started:
+No complex setup or local server is required to run this application.
 
-🚀 Getting Started
-To get a local copy up and running, follow these simple steps.
+Open the file directly in any modern web browser (e.g., Google Chrome, Firefox, Microsoft Edge).
+And can be viewed on: https://g.co/gemini/share/82ccdeff8b98
 
-Prerequisites
-Python 3.8+
+Contributors:
+Manan Singhal 
+Viransh Jain 
+Smit Shubhanshu Kamatnurkar
+Animesh Panda 
+Frontend: User interface (HTML), styling (CSS), and client-side logic (JavaScript).
 
-Node.js and npm
-
-Git
-
-Installation
-Clone the repository:
-
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
-cd your-repo
-
-
-Backend Setup:
-
-cd backend
-pip install -r requirements.txt
-
-
-Frontend Setup:
-
-cd ../frontend
-npm install
-
-
-Environment Variables:
-Create a .env file in the backend directory and add your API keys:
-
-GOOGLE_MAPS_API_KEY='YOUR_API_KEY'
-CLIMATE_DATA_API_KEY='YOUR_API_KEY'
-
-
-Our website can be viewed on: https://g.co/gemini/share/82ccdeff8b98
-
-Start the frontend development server (from the frontend directory):
-
-npm start
-
-
-Visit http://localhost:3000 in your browser to see the application.
-
-🖼️ Usage and Demo
-Upon visiting the site, you can interact with the AI assistant:
-
-Enter your location or allow the browser to detect it.
-
-Ask a question in the chat interface, for example:
-
-"What is the predicted yield for corn in my area for the next season?"
-
-"Which crops are most resilient to the expected heatwaves this summer?"
-
-"Where can I buy high-quality tomato seeds near me?"
-
-The AI will process your request and provide a detailed response, including data visualizations and a map of seed suppliers.
-
-🗺️ Roadmap
-We have an exciting future planned for SmartHarvest. Here are some of the features we're working on:
-
- Integrate real-time satellite imagery for soil health analysis.
-
- Expand the database to include a wider variety of crops and global regions.
-
- Develop a mobile application for on-the-go access.
-
- Introduce models for predicting pest and disease outbreaks.
-
- Offer subscription tiers with more advanced analytics for commercial farms.
-
-See the open issues for a full list of proposed features (and known issues).
-
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-Don't forget to give the project a star! Thanks again!
-
-📜 License
-Distributed under the MIT License. See LICENSE.txt for more information.
-
-📧 Contact
-Your Name - @your_twitter - email@example.com
-
-Project Link: https://github.com/your-username/your-repo
-
-🙏 Acknowledgments
-README Template
-
-Shields.io
-
-Font Awesome
+Backend: This application is currently a client-side prototype and does not have a dedicated backend. A backend developer would be responsible for creating an API, managing a database, and implementing a real prediction model.
