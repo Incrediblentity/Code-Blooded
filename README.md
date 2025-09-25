@@ -58,7 +58,9 @@ Our progress over time:-
                          
 2) https://g.co/gemini/share/005748971689
 
-And our website can be viewed on: (https://smart-harvest-copy-3f990842.base44.app)
+3) https://smart-harvest-d521e452.base44.app
+
+And our final prototype website can be viewed on: (https://smart-harvest-copy-3f990842.base44.app)
 
 Frontend: User interface (HTML), styling (CSS), and client-side logic (JavaScript).
 
